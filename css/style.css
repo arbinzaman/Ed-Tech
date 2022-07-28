@@ -1,3 +1,11 @@
+/* color */
+.bg-nil{
+    background-color: #2e9bd1;
+}
+/* color */
+
+
+
 /* silder effect */
 .carousel-item{
      background:no-repeat scroll center scroll;
@@ -17,20 +25,46 @@
     opacity:0.7;
     }
 
-    /* silder effect */
-
-    .carousel-caption.d-none.d-md-block {
-        padding-bottom: 150px;
+    button.btn.btn-outline-light.btn-lg.text-center.ps-5.pe-5.p-3 {
+        background-color: #2e9bd1;
+        border: #2e9bd1;
     }
 
+    button.active{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    /* silder effect */
+
+    
+
+    p{
+      
+        color: #ccc6c6;
+    }
     /* card area */
     img.card-img-left.example-card-img-responsive {
         height: fit-content;
     }
 
 
-    .card.flex-row {
-        margin-bottom: -31px;
-      
-    }
+
+
+    @media only screen and (max-width: 500px) {
+        .card.flex-row {
+            display: grid;
+        }
+        img.card-img-left.example-card-img-responsive {
+            height: fit-content;
+            width: -webkit-fill-available;
+        }
+      }
+   
     /* card area */
+/* accorion area */
+button.accordion-button {
+    font-size: 30px;
+}
+/* accorion area */
