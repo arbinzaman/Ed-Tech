@@ -1,3 +1,6 @@
+
+
+
 /* color */
 .bg-nil{
     background-color: #2e9bd1;
@@ -60,8 +63,27 @@
             height: fit-content;
             width: -webkit-fill-available;
         }
+        section.container.mt-5.pt-5.mb-5.pb-5.lala {
+            display: none;
+        }
+        p.h4.d-flex.justify-content-center.align-items-center {
+          
+            font-size: 13px;
+        }
+        h5.display-1.d-flex.justify-content-center.align-items-center {
+            font-size: 21px;
+            font-weight: 400;
+        }
       }
    
+      @media only screen and (max-width: 700px)
+      {
+        section.container.mt-5.pt-5.mb-5.pb-5.lala {
+            display: none;
+      }
+    }
+
+
     /* card area */
 /* accorion area */
 button.accordion-button {
