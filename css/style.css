@@ -4,9 +4,12 @@
 /* color */
 .bg-nil{
     background-color: #2e9bd1;
+
 }
 /* color */
-
+.bg-nila{
+    color: #2e9bd1;
+}
 
 
 /* silder effect */
@@ -82,6 +85,15 @@
             display: none;
       }
     }
+
+    @media only screen and (max-width: 390px)
+    {
+       
+        h5.display-1.d-flex.justify-content-center.align-items-center {
+            font-size: 16px;
+            font-weight: 400;
+        }
+  }
 
 
     /* card area */
